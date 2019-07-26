@@ -5,10 +5,13 @@
   "version": "0.1.0",
   "author": "Oliver Gassman <oliver.gassman@gmail.com>",
   "dependencies": {
+    "@mdx-js/mdx": "^1.1.0",
+    "@mdx-js/react": "^1.0.27",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.13.31",
     "gatsby-image": "^2.2.6",
     "gatsby-plugin-manifest": "^2.2.3",
+    "gatsby-plugin-mdx": "^1.0.17",
     "gatsby-plugin-offline": "^2.2.4",
     "gatsby-plugin-react-helmet": "^3.1.2",
     "gatsby-plugin-sharp": "^2.2.8",

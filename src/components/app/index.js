@@ -16,6 +16,7 @@ const App = ({ children }) => (
     <Normalize />
     <GlobalStyle />
     <Header />
+    <hr />
     {children}
   </React.Fragment>
 )
