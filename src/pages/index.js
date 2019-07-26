@@ -18,7 +18,7 @@ import ContactLink from '../components/contact-link'
 
 const IndexPage = () => (
   <App>
-    <h1>Website of Oliver Gassman</h1>
+    <hr />
 
     <p>
       I help our feature squads meet customers' and bankers' high expectations
@@ -36,20 +36,6 @@ const IndexPage = () => (
     </p>
 
     <hr />
-
-    <h2>Contact details</h2>
-    <ContactLink href='https://github.com/loliver' color='#333'>
-      <Github size='48' title='GitHub' />
-    </ContactLink>
-    <ContactLink
-      href='https://www.linkedin.com/in/oliver-gassman-79193515/'
-      color='#0077b5'
-    >
-      <LinkedinSquare size='48' title='Linkedin' />
-    </ContactLink>
-    <ContactLink href='https://twitter.com/lololololiver' color='#1da1f2'>
-      <Twitter size='48' title='Twitter' />
-    </ContactLink>
 
     <h2>Capabilities</h2>
     <ContactLink href='https://reactjs.org/' color='#00d8ff'>
@@ -81,6 +67,22 @@ const IndexPage = () => (
     </ContactLink>
     <ContactLink href='https://angularjs.org/' color='#b52e31'>
       <Angular size='48' title='Angular' />
+    </ContactLink>
+
+    <hr />
+
+    <h2>Contact details</h2>
+    <ContactLink href='https://github.com/loliver' color='#333'>
+      <Github size='48' title='GitHub' />
+    </ContactLink>
+    <ContactLink
+      href='https://www.linkedin.com/in/oliver-gassman-79193515/'
+      color='#0077b5'
+    >
+      <LinkedinSquare size='48' title='Linkedin' />
+    </ContactLink>
+    <ContactLink href='https://twitter.com/lololololiver' color='#1da1f2'>
+      <Twitter size='48' title='Twitter' />
     </ContactLink>
   </App>
 )
