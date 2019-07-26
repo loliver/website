@@ -29,6 +29,7 @@ export const GlobalStyle = createGlobalStyle`
     height: 1px;
     background: #CCC;
     margin: 4rem -2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
 
   h1,
