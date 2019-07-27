@@ -10,14 +10,15 @@ export const LinkWrapper = styled.a`
   font-size: 1.5rem;
   line-height: 3rem;
   transform: translateY(0);
-  transition: transform 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
 
   &:hover {
     transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
 `
 
 export const SvgLogoImg = styled.img`
-  margin: 0.5rem 0 -0.5rem 0.25rem;
+  margin: 0.5rem 0 -0.5rem 0.375rem;
   width: 36px;
 `
