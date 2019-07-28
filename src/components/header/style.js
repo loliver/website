@@ -17,7 +17,8 @@ export const HeadingWrapper = styled.hgroup`
 `
 
 export const Profile = styled.img.attrs(() => ({
-  src: profile
+  src: profile,
+  alt: 'Profile photo of Oliver Gassman'
 }))`
   float: right;
   margin-left: 2rem;
