@@ -9,6 +9,7 @@ import { GlobalStyle } from './style'
 const App = ({ children }) => (
   <React.Fragment>
     <Helmet>
+      <html lang="en" />
       <meta charSet='utf-8' />
       <title>Oliver Gassman</title>
       <link rel='canonical' href='http://olivergassman.net/' />
